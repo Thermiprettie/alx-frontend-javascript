@@ -13,6 +13,6 @@ function updateStudentGradeByCity(studentsLists, city, newGrades) {
         grade: 'N/A',
       };
     });
-  }
-  
-  export default updateStudentGradeByCity;
+}
+
+export default updateStudentGradeByCity;
