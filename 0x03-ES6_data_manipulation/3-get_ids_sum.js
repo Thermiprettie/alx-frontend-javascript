@@ -1,5 +1,3 @@
-function getStudentIdsSum(students) {
-	return students.reduce((st8, sval) => st8 + sval, 0);
+export default function getStudentIdsSum(arr) {
+	  return arr.reduce((acmlt, curnt) => acmlt + curnt.id, 0);
 }
-
-export default getStudentIdsSum;
